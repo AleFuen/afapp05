@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">afapp02</string>
+    <string name="nombre">Nombre:</string>
+    <string name="aplicar">Aplicar</string>
+</resources>
