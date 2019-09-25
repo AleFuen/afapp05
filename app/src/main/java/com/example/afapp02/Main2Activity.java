@@ -11,6 +11,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
     }
+    /*
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         // Use the Builder class for convenient dialog construction
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
@@ -26,6 +27,6 @@ public class Main2Activity extends AppCompatActivity {
                     }
                 });
         // Create the AlertDialog object and return it
-        return builder.create();
+        return builder.create();*/
 
     }
