@@ -7,7 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
+
 public class Main2Activity extends AppCompatActivity {
+
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +24,16 @@ public class Main2Activity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent button2 = new Intent(Main2Activity.this, MainActivity.class);
                 startActivity(button2);
+            }
+        });
+
+        Button button3 = (Button) findViewById(R.id.button3);
+
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent button3 = new Intent(Main2Activity.this, Main3Activity.class);
+                startActivity(button3);
             }
         });
     }

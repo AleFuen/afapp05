@@ -10,7 +10,8 @@
         android:layout_width="396dp"
         android:layout_height="710dp"
         tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="8dp">
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/imageView2"
@@ -86,6 +87,20 @@
             android:layout_marginEnd="193dp"
             android:layout_marginRight="193dp"
             android:layout_marginBottom="280dp"
-            android:text="Regresar" />
+            android:text="@string/regresar" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="368dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginRight="57dp"
+            android:layout_marginBottom="14dp"
+            android:text="@string/siguiente" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
