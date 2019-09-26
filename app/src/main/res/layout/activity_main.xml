@@ -7,6 +7,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="113dp"
+        android:layout_height="94dp">
+
+        <item
+            android:id="@+id/new_game"
+            android:icon="@drawable/ic_new_game"
+            android:showAsAction="ifRoom"
+            android:title="@string/new_game" />
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help"
+            android:title="@string/help" />
+    </menu>
+
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="88dp"
@@ -192,6 +210,8 @@
 
         </LinearLayout>
 
+
+
         <EditText
             android:id="@+id/editText"
             android:layout_width="wrap_content"
@@ -221,7 +241,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="208dp"
-        android:onClick="@string/appbascrolling_view_behavior"
+        android:onClick="@string/appbar_scrolling_view_behavior"
+        android:showAsAction="ifRoom"
         android:text="@string/aplicar"
         app:layout_constraintBottom_toBottomOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
