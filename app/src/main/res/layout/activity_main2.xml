@@ -7,18 +7,18 @@
     tools:context=".Main2Activity">
 
     <RelativeLayout
-        android:layout_width="396dp"
-        android:layout_height="710dp"
+        android:layout_width="341dp"
+        android:layout_height="635dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="13dp"
-        tools:layout_editor_absoluteY="8dp"
-        tools:ignore="MissingConstraints">
+        tools:layout_editor_absoluteY="8dp">
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="240dp"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="475dp"
+            android:layout_marginBottom="455dp"
             android:contentDescription="TODO"
             app:srcCompat="@mipmap/ic_launcher" />
 
@@ -73,20 +73,20 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="140dp"
-            android:layout_height="50dp"
+            android:layout_width="175dp"
+            android:layout_height="94dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="119dp"
-            android:layout_marginLeft="119dp"
-            android:layout_marginTop="357dp"
-            android:layout_marginEnd="137dp"
-            android:layout_marginRight="137dp"
-            android:layout_marginBottom="303dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="412dp"
+            android:layout_marginEnd="81dp"
+            android:layout_marginRight="81dp"
+            android:layout_marginBottom="129dp"
             android:text="@string/regresar" />
 
     </RelativeLayout>
