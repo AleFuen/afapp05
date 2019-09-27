@@ -27,14 +27,6 @@ public class Main2Activity extends AppCompatActivity {
             }
         });
 
-        Button button3 = (Button) findViewById(R.id.button3);
 
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent button3 = new Intent(Main2Activity.this, Main3Activity.class);
-                startActivity(button3);
-            }
-        });
     }
 }

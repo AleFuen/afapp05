@@ -81,26 +81,13 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="63dp"
-            android:layout_marginLeft="63dp"
-            android:layout_marginTop="380dp"
-            android:layout_marginEnd="193dp"
-            android:layout_marginRight="193dp"
-            android:layout_marginBottom="280dp"
+            android:layout_marginStart="119dp"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="357dp"
+            android:layout_marginEnd="137dp"
+            android:layout_marginRight="137dp"
+            android:layout_marginBottom="303dp"
             android:text="@string/regresar" />
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/button2"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginTop="368dp"
-            android:layout_marginEnd="57dp"
-            android:layout_marginRight="57dp"
-            android:layout_marginBottom="14dp"
-            android:text="@string/siguiente" />
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
