@@ -24,14 +24,14 @@
 
         <Spinner
             android:id="@+id/spinner3"
-            android:layout_width="379dp"
-            android:layout_height="78dp"
+            android:layout_width="match_parent"
+            android:layout_height="610dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="366dp" />
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="25dp" />
 
         <ScrollView
             android:layout_width="346dp"
@@ -60,8 +60,8 @@
             android:layout_height="86dp"
             android:layout_alignTop="@+id/imageView2"
             android:layout_alignParentBottom="true"
-            android:layout_marginTop="517dp"
-            android:layout_marginBottom="32dp" />
+            android:layout_marginTop="521dp"
+            android:layout_marginBottom="28dp" />
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
